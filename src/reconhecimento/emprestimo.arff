@@ -1,0 +1,56 @@
+@relation emprestimo
+
+@attribute tempoEmprego numeric
+@attribute ocupacao {Autonomo, FuncionarioPublico, FuncionarioPrivado, Desempregado }
+@attribute tempoResidencia numeric
+@attribute statusResidencia {Financiada, Alugada, Propria}
+@attribute saldoDevedor {40000-70000, >=90000, 150000-250000, >=500000 }
+@attribute Pagou {sim, nao}
+
+@data
+1,FuncionarioPrivado,3,Propria,40000-70000,sim
+2,Autonomo,4,Propria,>=90000,nao
+3,Autonomo,2,Propria,40000-70000,nao
+12,FuncionarioPublico,5,Financiada,>=90000,sim
+23,Autonomo,8,Financiada,40000-70000,nao
+0,Desempregado,7,Propria,40000-70000,nao
+2,FuncionarioPublico,8,Propria,150000-250000,nao
+6,FuncionarioPrivado,4,Financiada,150000-250000,sim
+0,Desempregado,5,Alugada,40000-70000,sim
+0,Desempregado,9,Financiada,40000-70000,sim
+8,Autonomo,10,Financiada,>=90000,sim
+12,FuncionarioPrivado,12,Alugada,>=90000,sim
+16,Autonomo,15,Alugada,>=500000,sim
+12,FuncionarioPublico,2,Financiada,150000-250000,sim
+10,FuncionarioPublico,4,Financiada,>=500000,sim
+0,Desempregado,1,Financiada,40000-70000,nao
+0,Desempregado,1,Alugada,40000-70000,sim
+22,FuncionarioPublico,18,Propria,>=90000,nao
+21,Autonomo,15,Propria,>=90000,nao
+6,FuncionarioPublico,14,Propria,>=90000,nao
+6,FuncionarioPublico,14,Alugada,>=90000,sim
+0,Desempregado,5,Alugada,40000-70000,nao
+13,Autonomo,1,Propria,>=90000,sim
+10,FuncionarioPublico,8,Financiada,150000-250000,sim
+1,FuncionarioPrivado,1,Propria,150000-250000,nao
+2,Autonomo,8,Propria,150000-250000,sim
+3,FuncionarioPublico,6,Financiada,150000-250000,sim
+10,FuncionarioPublico,9,Propria,150000-250000,nao
+2,Autonomo,4,Propria,>=90000,nao
+0,Desempregado,8,Propria,150000-250000,nao
+2,FuncionarioPrivado,3,Alugada,150000-250000,sim
+2,Autonomo,8,Financiada,40000-70000,sim
+7,FuncionarioPrivado,4,Alugada,40000-70000,sim
+1,FuncionarioPrivado,2,Financiada,>=90000,nao
+20,FuncionarioPublico,10,Propria,>=500000,nao
+2,Autonomo,5,Propria,40000-70000,sim
+4,Autonomo,7,Alugada,40000-70000,sim
+8,FuncionarioPrivado,7,Propria,>=500000,sim
+
+
+
+
+
+
+
+
